@@ -43,6 +43,13 @@ if (digitalRead(boton4) == HIGH && digitalRead(sensor4) == LOW){
 (digitalWrite(motor4,HIGH));
 }
 }
+//Funcion de encendido de batidoras
+void encenderBatidoras(int nroBatidora){
+  digitalWrite(nroBatidora,HIGH);
+  }
+
+
+
 void loop(){
 botones();
 }
