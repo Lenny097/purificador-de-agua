@@ -1,3 +1,4 @@
+//Codigo
 int boton1 = 2;
 int sensor1 = 3;
 int motor1 = 4;
