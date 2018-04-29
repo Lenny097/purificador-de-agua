@@ -11,6 +11,10 @@ int motor3 = 10;
 int boton4 = 11;
 int sensor4 = 12;
 int motor4 = 13;
+int motorbat1 = 14;
+int motorbat2 = 15;
+int motorbat3 = 16;
+int motorbat4 = 17;
 void setup(){
 pinMode(boton1,INPUT);
 pinMode(sensor1,INPUT);
